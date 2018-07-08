@@ -1,0 +1,24 @@
+.signin-page {
+  .accounting {
+    background: url(../images/login-background.jpg) no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
+  .wrapper-page {
+    margin: 7.5% auto;
+    width: 420px;
+    position: relative;
+
+    .panel {
+    border: none;
+    margin-bottom: 20px;
+    }
+    .panel-pages {
+      .panel-body {
+      padding: 25px 30px;
+      }  
+    }
+  }
+}
