@@ -1,0 +1,61 @@
+a {
+  text-decoration: none !important;
+}
+button {
+      padding: 5px 20px 5px 20px;
+}
+
+// margin-top style
+.m-t-0 {
+    margin-top: 0px;
+}
+.m-t-5 {
+    margin-top: 5px;
+}
+.m-t-10 {
+    margin-top: 10px;
+}
+.m-t-15 {
+    margin-top: 15px;
+}
+.m-t-20 {
+    margin-top: 20px;
+}
+.m-t-30 {
+    margin-top: 30px;
+}
+.m-t-40 {
+    margin-top: 40px;
+}
+
+// margin-bottom style
+.m-b-0 {
+    margin-bottom: 0px;
+}
+.m-b-5 {
+    margin-bottom: 5px;
+}
+.m-b-10 {
+    margin-bottom: 10px;
+}
+.m-b-15 {
+    margin-bottom: 15px;
+}
+.m-b-20 {
+    margin-bottom: 20px;
+}
+.m-b-30 {
+    margin-bottom: 30px;
+}
+.m-b-40 {
+    margin-bottom: 40px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.form-control:focus {
+    border-color: transparent;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0) inset, 1px 1px 8px rgba(0, 0, 0, 0.3);
+}

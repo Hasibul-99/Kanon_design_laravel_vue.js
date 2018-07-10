@@ -50490,7 +50490,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -50501,6 +50501,46 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -50556,8 +50596,9 @@ var staticRenderFns = [
                   [
                     _c("img", {
                       attrs: {
-                        src: "resources/assets/images/logo.png",
-                        height: "28",
+                        src: "images/logo.png",
+                        height: "45",
+                        width: "200",
                         alt: "KAN"
                       }
                     })
@@ -50566,8 +50607,103 @@ var staticRenderFns = [
               ]),
               _vm._v(" "),
               _c("h4", { staticClass: "text-muted text-center m-t-0" }, [
-                _c("b", [_vm._v("Sign in")])
-              ])
+                _c("b", [_vm._v("Sign In")])
+              ]),
+              _vm._v(" "),
+              _c(
+                "form",
+                {
+                  staticClass: "form-horizontal m-t-20",
+                  attrs: { action: "index.html" }
+                },
+                [
+                  _c("div", { staticClass: "form-group" }, [
+                    _c("div", { staticClass: "col-xs-12" }, [
+                      _c("input", {
+                        staticClass: "form-control input-field",
+                        attrs: {
+                          type: "text",
+                          required: "",
+                          placeholder: "Username"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group" }, [
+                    _c("div", { staticClass: "col-xs-12" }, [
+                      _c("input", {
+                        staticClass: "form-control input-field",
+                        attrs: {
+                          type: "password",
+                          required: "",
+                          placeholder: "Password"
+                        }
+                      })
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group" }, [
+                    _c("div", { staticClass: "col-xs-12" }, [
+                      _c("div", { staticClass: "checkbox checkbox-primary" }, [
+                        _c("input", {
+                          attrs: { id: "checkbox-signup", type: "checkbox" }
+                        }),
+                        _vm._v(" "),
+                        _c("label", { attrs: { for: "checkbox-signup" } }, [
+                          _vm._v(
+                            "\n                                Remember me\n                            "
+                          )
+                        ])
+                      ])
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group text-center m-t-40" }, [
+                    _c("div", { staticClass: "col-xs-12" }, [
+                      _c(
+                        "button",
+                        {
+                          staticClass:
+                            "btn btn-primary btn-block waves-effect waves-light",
+                          attrs: { type: "submit" }
+                        },
+                        [_vm._v("Log In")]
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "form-group d-flex m-t-30 m-b-0" }, [
+                    _c("div", { staticClass: "col-sm-7 " }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "text-muted shadow-hover",
+                          attrs: { href: "" }
+                        },
+                        [
+                          _c("i", {
+                            staticClass: "fas fa-lock m-r-5",
+                            attrs: { "aria-hidden": "true" }
+                          }),
+                          _vm._v(" Forgot your password?")
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-sm-5 text-right" }, [
+                      _c(
+                        "a",
+                        {
+                          staticClass: "text-muted shadow-hover",
+                          attrs: { href: "" }
+                        },
+                        [_vm._v("Create an account")]
+                      )
+                    ])
+                  ])
+                ]
+              )
             ])
           ]
         )
