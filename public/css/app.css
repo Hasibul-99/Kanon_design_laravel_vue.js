@@ -13580,3 +13580,34 @@ button {
   padding: 25px 30px;
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+  .signin-page .wrapper-page {
+    width: 90%;
+  }
+
+  .signin-page .wrapper-page .text-muted {
+    font-size: 35px;
+  }
+
+  .signin-page .wrapper-page .input-field {
+    font-size: 35px;
+    padding: 1.375rem 0.75rem;
+    line-height: 2.5;
+  }
+
+  .signin-page .wrapper-page .checkbox-primary input {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .signin-page .wrapper-page .checkbox-primary label {
+    font-size: 30px;
+  }
+
+  .signin-page .wrapper-page .btn-block {
+    font-size: 30px;
+  }
+}
+
