@@ -11,6 +11,12 @@ Route::get('/', function () {
 // Route:: resource('phonebook', 'PhonebookController');
 
 
+// user signIn page 
 Route::get('/signin', function () {
     return view('login');
+});
+
+// user signUp page 
+Route::get('/signup', function () {
+    return view('signup');
 });
