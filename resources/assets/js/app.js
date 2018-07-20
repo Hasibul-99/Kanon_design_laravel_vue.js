@@ -25,6 +25,6 @@ const app = new Vue({
     el: '#app',
     router,
     components: {
-      Landing, Login
+      Landing, Login, Signup
     }
 });

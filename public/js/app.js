@@ -25288,7 +25288,7 @@ var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
   el: '#app',
   router: router,
   components: {
-    Landing: Landing, Login: Login
+    Landing: Landing, Login: Login, Signup: Signup
   }
 });
 
@@ -50294,7 +50294,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -50349,6 +50349,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -50360,41 +50361,29 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "nav",
-    { staticClass: "navbar navbar-expand-lg navbar-light bg-light" },
-    [
-      _c(
-        "div",
-        {
-          staticClass: "collapse navbar-collapse",
-          attrs: { id: "navbarNavAltMarkup" }
-        },
-        [
-          _c(
-            "div",
-            { staticClass: "navbar-nav" },
-            [
-              _c(
-                "router-link",
-                { staticClass: "nav-item nav-link", attrs: { to: "/login" } },
-                [_vm._v("Sign in")]
-              ),
-              _vm._v(" "),
-              _c(
-                "router-link",
-                { staticClass: "nav-item nav-link", attrs: { to: "/signup" } },
-                [_vm._v("signup")]
-              )
-            ],
-            1
-          )
-        ]
-      )
-    ]
-  )
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "nav",
+      { staticClass: "navbar navbar-expand-lg navbar-light bg-light" },
+      [
+        _c(
+          "div",
+          {
+            staticClass: "collapse navbar-collapse",
+            attrs: { id: "navbarNavAltMarkup" }
+          },
+          [_c("div", { staticClass: "navbar-nav" })]
+        )
+      ]
+    )
+  }
+]
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
@@ -50490,7 +50479,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -50501,11 +50490,6 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
 //
 //
 //
@@ -50581,117 +50565,108 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "signin-page" }, [
-      _c("div", { staticClass: "accounting" }),
+      _c("div", { staticClass: "accounting" }, [
+        _c("div", { staticClass: "overlay" })
+      ]),
       _vm._v(" "),
-      _c("div", { staticClass: "wrapper-page" }, [
-        _c(
-          "div",
-          { staticClass: "panel panel-color panel-primary panel-pages" },
-          [
-            _c("div", { staticClass: "panel-body" }, [
-              _c("h3", { staticClass: "text-center m-t-0 m-b-15" }, [
-                _c(
-                  "a",
-                  { staticClass: "logo logo-admin", attrs: { href: "#" } },
-                  [
-                    _c("img", {
-                      attrs: {
-                        src: "images/logo.png",
-                        height: "45",
-                        width: "200",
-                        alt: "KAN"
-                      }
-                    })
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("h4", { staticClass: "text-muted text-center m-t-0" }, [
-                _c("b", [_vm._v("Sign In")])
-              ]),
-              _vm._v(" "),
+      _c("div", { staticClass: "signup-from" }, [
+        _c("div", { staticClass: "signup" }, [
+          _c("div", { staticClass: "signup-body" }, [
+            _c("h3", { staticClass: "text-center m-t-0 m-b-15" }, [
               _c(
-                "form",
-                {
-                  staticClass: "form-horizontal m-t-20",
-                  attrs: { action: "index.html" }
-                },
+                "a",
+                { staticClass: "logo logo-admin", attrs: { href: "#" } },
                 [
-                  _c("div", { staticClass: "form-group" }, [
-                    _c("div", { staticClass: "col-xs-12" }, [
-                      _c("input", {
-                        staticClass: "form-control input-field",
-                        attrs: {
-                          type: "text",
-                          required: "",
-                          placeholder: "Username"
-                        }
-                      })
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-group" }, [
-                    _c("div", { staticClass: "col-xs-12" }, [
-                      _c("input", {
-                        staticClass: "form-control input-field",
-                        attrs: {
-                          type: "password",
-                          required: "",
-                          placeholder: "Password"
-                        }
-                      })
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-group" }, [
-                    _c("div", { staticClass: "col-xs-12" }, [
-                      _c("div", { staticClass: "checkbox checkbox-primary" }, [
-                        _c("input", {
-                          attrs: { id: "checkbox-signup", type: "checkbox" }
-                        }),
-                        _vm._v(" "),
-                        _c("label", { attrs: { for: "checkbox-signup" } }, [
-                          _vm._v(
-                            "\n                                Remember me\n                            "
-                          )
-                        ])
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-group text-center m-t-40" }, [
-                    _c("div", { staticClass: "col-xs-12" }, [
-                      _c(
-                        "button",
-                        {
-                          staticClass:
-                            "btn btn-primary btn-block waves-effect waves-light",
-                          attrs: { type: "submit" }
-                        },
-                        [_vm._v("Log In")]
-                      )
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-group d-flex m-t-30 m-b-0" }, [
-                    _c("div", { staticClass: "col-sm-7 " }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "text-muted shadow-hover",
-                          attrs: { href: "" }
-                        },
-                        [
-                          _c("i", {
-                            staticClass: "fas fa-lock m-r-5",
-                            attrs: { "aria-hidden": "true" }
-                          }),
-                          _vm._v(" Forgot your password?")
-                        ]
-                      )
-                    ]),
+                  _c("img", {
+                    attrs: {
+                      src: "images/logo.png",
+                      height: "45",
+                      width: "200",
+                      alt: "KAN"
+                    }
+                  })
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("h4", { staticClass: "text-muted text-center m-t-0" }, [
+              _c("b", [_vm._v("Sign In")])
+            ]),
+            _vm._v(" "),
+            _c(
+              "form",
+              { staticClass: "m-t-30", attrs: { action: "index.html" } },
+              [
+                _c("div", { staticClass: "form-group col-xs-12" }, [
+                  _c("input", {
+                    staticClass: "form-control input-field",
+                    attrs: {
+                      type: "text",
+                      required: "",
+                      placeholder: "Username"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group col-xs-12" }, [
+                  _c("input", {
+                    staticClass: "form-control input-field",
+                    attrs: {
+                      type: "password",
+                      required: "",
+                      placeholder: "Password"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group col-xs-12" }, [
+                  _c("div", { staticClass: "checkbox checkbox-primary" }, [
+                    _c("input", {
+                      attrs: { id: "checkbox-signup", type: "checkbox" }
+                    }),
                     _vm._v(" "),
-                    _c("div", { staticClass: "col-sm-5 text-right" }, [
+                    _c("label", { attrs: { for: "checkbox-signup" } }, [
+                      _vm._v(
+                        "\n                          Remember me\n                      "
+                      )
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group col-xs-12" }, [
+                  _c(
+                    "button",
+                    {
+                      staticClass:
+                        "btn btn-primary btn-block waves-effect waves-light",
+                      attrs: { type: "submit" }
+                    },
+                    [_vm._v("Log In")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group d-flex m-t-30 m-b-0" }, [
+                  _c("div", { staticClass: "col-sm-7 p-r-0 p-l-0" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "text-muted shadow-hover",
+                        attrs: { href: "" }
+                      },
+                      [
+                        _c("i", {
+                          staticClass: "fas fa-lock m-r-5",
+                          attrs: { "aria-hidden": "true" }
+                        }),
+                        _vm._v(" Forgot your password?")
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "col-sm-5 text-right p-r-0 p-l-0" },
+                    [
                       _c(
                         "a",
                         {
@@ -50700,13 +50675,13 @@ var staticRenderFns = [
                         },
                         [_vm._v("Create an account")]
                       )
-                    ])
-                  ])
-                ]
-              )
-            ])
-          ]
-        )
+                    ]
+                  )
+                ])
+              ]
+            )
+          ])
+        ])
       ])
     ])
   }
@@ -50806,7 +50781,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -50817,6 +50792,55 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -50844,11 +50868,116 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("h2", [_vm._v("Basic Card")]),
+    return _c("div", { staticClass: "signin-page" }, [
+      _c("div", { staticClass: "accounting" }, [
+        _c("div", { staticClass: "overlay" })
+      ]),
       _vm._v(" "),
-      _c("div", { staticClass: "card" }, [
-        _c("div", { staticClass: "card-body" }, [_vm._v("Basic card")])
+      _c("div", { staticClass: "signup-from" }, [
+        _c("div", { staticClass: "signup" }, [
+          _c("div", { staticClass: "signup-body" }, [
+            _c("h3", { staticClass: "text-center m-t-0 m-b-15" }, [
+              _c(
+                "a",
+                { staticClass: "logo logo-admin", attrs: { href: "#" } },
+                [
+                  _c("img", {
+                    attrs: {
+                      src: "images/logo.png",
+                      height: "45",
+                      width: "200",
+                      alt: "KAN"
+                    }
+                  })
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("h4", { staticClass: "text-muted text-center m-t-0" }, [
+              _c("b", [_vm._v("Sign Up")])
+            ]),
+            _vm._v(" "),
+            _c("form", { attrs: { action: "index.html" } }, [
+              _c("div", { staticClass: "form-group col-xs-12" }, [
+                _c("input", {
+                  staticClass: "form-control input-field",
+                  attrs: { type: "email", required: "", placeholder: "Email" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group  col-xs-12" }, [
+                _c("input", {
+                  staticClass: "form-control input-field",
+                  attrs: { type: "text", required: "", placeholder: "Username" }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group col-xs-12" }, [
+                _c("input", {
+                  staticClass: "form-control input-field",
+                  attrs: {
+                    type: "password",
+                    required: "",
+                    placeholder: "Password"
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group col-xs-12" }, [
+                _c("input", {
+                  staticClass: "form-control input-field",
+                  attrs: {
+                    type: "password",
+                    required: "",
+                    placeholder: "Confirm password"
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group col-xs-12" }, [
+                _c("div", { staticClass: "checkbox checkbox-primary" }, [
+                  _c("input", {
+                    attrs: { id: "checkbox-signup", type: "checkbox" }
+                  }),
+                  _vm._v(" "),
+                  _c("label", { attrs: { for: "checkbox-signup" } }, [
+                    _vm._v("\n                              I accept "),
+                    _c("a", { attrs: { href: "" } }, [
+                      _vm._v("Terms and Conditions")
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group text-center col-xs-12" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass:
+                      "btn btn-primary btn-block waves-effect waves-light",
+                    attrs: { type: "submit" }
+                  },
+                  [_vm._v("Register")]
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "form-group m-b-0 col-sm-12 text-center" },
+                [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "text-muted shadow-hover",
+                      attrs: { href: "" }
+                    },
+                    [_vm._v("Already have account")]
+                  )
+                ]
+              )
+            ])
+          ])
+        ])
       ])
     ])
   }
